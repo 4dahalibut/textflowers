@@ -1,4 +1,4 @@
-package com.github.4dahalibut.textflowers
+package com.github.dahalibut.textflowers
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

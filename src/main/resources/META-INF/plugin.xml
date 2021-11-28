@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.4dahalibut.textflowers</id>
+    <id>com.github.dahalibut.textflowers</id>
     <name>textflowers</name>
-    <vendor>4dahalibut</vendor>
+    <vendor>dahalibut</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.4dahalibut.textflowers.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.4dahalibut.textflowers.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.dahalibut.textflowers.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.dahalibut.textflowers.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.4dahalibut.textflowers.listeners.MyProjectManagerListener"
+        <listener class="com.github.dahalibut.textflowers.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
