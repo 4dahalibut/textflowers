@@ -9,6 +9,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.dahalibut.textflowers.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.dahalibut.textflowers.services.MyProjectService"/>
+        <typedHandler implementation="com.github.dahalibut.textflowers.handlers.MyTypedHandler"/>
     </extensions>
 
     <applicationListeners>
